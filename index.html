@@ -9,15 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     
-    <link href="normalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="webfonts/all.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/desktop.css" rel="stylesheet">
+    <link href="css/small_device.css" rel="stylesheet">
 </head>
 <body>
     <header class="container-header">
         <nav class="navbar-maj">
-            <a class="navbar-logo" href="#"><img src="images/logo/Booki.png" alt="booki"></a>
+            <div class="navbar-logo"><a href="#"><img src="images/logo/Booki.png" alt="booki"></a></div>
             <ul>  
                 <li class="nav-item">
                     <a class="nav-link active" href="#hostal">Hébergements</a>
@@ -27,20 +28,31 @@
                 </li>
             </ul>
         </nav>
+        <nav class="navbar-min">
+            <div class="navbar-logo-small"><a href="#"><img src="images/logo/Booki@3x.png" alt="booki"></a></div>
+            <ul>  
+                <li class="nav-item">
+                    <a class="nav-link" href="#hostal">Hébergements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#activity">Activités</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="container-main">
-        <div class="title">
-            <h2 class="h2">
-                Trouvez votre hébergement pour des vacances de rêve
-            </h2>
-            <h4 class="h4">En plein centre ville ou en pleine nature</h4>
-      
-                <form class="search">
-                    <button disabled="disabled" class="btn-left"><i class="fa fa-map-marker-alt"></i></button>
-                    <input type="text" name="search" value="Marseille, France" class="form-control" aria-label="localisation">
-                    <button type="submit" class="btn-right"><span class="ro-text">Rechercher</span><span class="ro-icon"><i class="fa fa-search"></i></span></button>
-                </form>
-        </div>
+        
+        <h2 class="h2">
+            Trouvez votre hébergement pour des vacances de rêve
+        </h2>
+        <h4 class="h4">En plein centre ville ou en pleine nature</h4>
+    
+        <form class="search">
+            <button disabled="disabled" class="btn-left"><i class="fa fa-map-marker-alt"></i></button>
+            <input type="text" name="search" value="Marseille, France" class="form-control" aria-label="localisation">
+            <button type="submit" class="btn-right"><span class="ro-text">Rechercher</span><span class="ro-icon"><i class="fa fa-search"></i></span></button>
+        </form>
+        
        
         <div class="filter">
             <h3 class="h3">Filtres</h3>

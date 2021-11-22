@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+  body {
+    width: 375px;
+    height: 3600px;
+    background-image: url(../iPhone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-header {
+    display: flex;
+    padding: 0px;
+  }
+
+  .navbar-maj {
+    display: none;
+  }
+
+  .navbar-min {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-logo-small img {
+    margin-top: 22px;
+    width: 25%;
+  }
+
+  .navbar-min ul {
+    display: flex;
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  .nav-item {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 36px;
+    padding-left: 36px;
+    color: black;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid var(--blue);
+    color: var(--blue);
+    padding-bottom: 7px;
+  }
+
+  .container-main {
+    margin-top: 10px;
+    padding: 24px 20px;
+    line-height: 1.1;
+  }
+
+  h1,
+  .h2 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 22.6px;
+  }
+  .h4 {
+    margin: 13px 0;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .h3 {
+    padding: 15px 7px;
+    font-size: 19.8px;
+    font-weight: bold;
+  }
+
+  form {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ro-text {
+    display: none;
+  }
+
+  .search input[type="text"] {
+    display: flex;
+    position: relative;
+    padding-left: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    border: 1px solid var(--grey);
+    background: white;
+    float: left;
+    color: black;
+  }
+  .btn-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grey);
+    border-radius: 16px 0 0 16px;
+    -webkit-appearance: none;
+    font-size: 18px;
+    background-color: var(--grey);
+    width: 50px;
+    border-right: none;
+    height: 50px;
+    color: black;
+  }
+
+  .btn-right {
+    position: relative;
+    left: -10px;
+    border: 1px solid var(--blue);
+    border-radius: 16px 16px 16px 16px;
+    -webkit-appearance: none;
+    font-size: 18px;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .filter {
+    margin-top: 16px;
+  }
+
+  .filter h3 {
+    margin-right: 52px;
+  }
+}
