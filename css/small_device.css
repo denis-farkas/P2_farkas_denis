@@ -130,11 +130,76 @@
     justify-content: center;
     align-items: center;
   }
+
   .filter {
-    margin-top: 16px;
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .filter h3 {
-    margin-right: 52px;
+  .filter .h3 {
+    margin-right: 152px;
+    font-size: 18px;
+    padding: 15px 4px;
+  }
+
+  .filter-notify {
+    border: 2px solid var(--grey);
+    display: flex;
+    position: relative;
+    border-radius: 0% 50px 50px 0%;
+    height: 50px;
+    width: fit-content;
+    border-left: none;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 6px;
+    margin-bottom: 14px;
+  }
+
+  .filter-notify:hover {
+    background: var(--blue);
+    color: white;
+  }
+
+  .filter-notify .badge {
+    position: absolute;
+    left: -24px;
+    display: flex;
+    border-radius: 50px;
+    background: var(--light-blue);
+    color: var(--blue);
+    width: 52px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--light-blue);
+  }
+
+  .filter-notify .sticker {
+    font-size: 17px;
+    padding-left: 36px;
+    padding-right: 17px;
+  }
+
+  .infos {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .badge-info {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grey);
+    font-size: 15px;
+    color: var(--blue);
+    margin-right: 4px;
+    margin-left: 4px;
   }
 }

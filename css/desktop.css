@@ -25,7 +25,6 @@
 
   .navbar-maj ul {
     display: flex;
-    width: 21.8%;
     justify-content: space-between;
     padding-top: 48px;
   }
@@ -195,7 +194,6 @@
     display: flex;
     margin-top: 40px;
     margin-left: -1px;
-    height: 660px;
     justify-content: space-between;
     line-height: 1.2;
   }
@@ -205,6 +203,8 @@
     border-radius: 25px;
     flex-wrap: wrap;
     background-color: var(--grey);
+    margin-right: 20px;
+    padding-bottom: 10px;
   }
 
   .title {
@@ -354,19 +354,21 @@
     border: 1px solid var(--grey);
     border-radius: 25px;
     flex-wrap: wrap;
-    width: 440px;
     padding-left: 4px;
     background-color: var(--grey);
+    min-width: 382px;
   }
 
   .category-aside {
+    display: flex;
     padding-top: 41px;
     margin-left: 37px;
+    justify-content: space-between;
   }
 
   .fa-chart-line {
     font-size: 25px;
-    padding-left: 120px;
+    padding-right: 40px;
   }
 
   .display-card-aside {
@@ -374,7 +376,7 @@
     flex-wrap: wrap;
     padding: 0 35px;
     margin-top: 28px;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .card-aside {
@@ -383,6 +385,7 @@
     border-radius: 25px;
     height: 153px;
     width: 362px;
+    min-width: 342px;
     padding: 5px;
     margin-bottom: 33px;
     background-color: white;
@@ -412,7 +415,7 @@
 
   .activities {
     margin-top: 60px;
-    height: 580px;
+    min-height: 580px;
     margin-left: -5px;
     line-height: 1.2;
   }
@@ -420,24 +423,33 @@
   .display-activities {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 15px;
+    flex-wrap: wrap;
+  }
+
+  .activity {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-vertical {
-    width: 320px;
+    min-width: 320px;
     border-radius: 22px;
     background-color: white;
   }
 
   .high {
     height: 470px;
+    margin-left: 12px;
+    margin-bottom: 5px;
   }
 
   .second-high {
     height: 470px;
-    margin-left: 22px;
+    margin-left: 12px;
+    margin-bottom: 5px;
   }
 
   .mid-high {
@@ -449,16 +461,18 @@
   .min-high {
     height: 178px;
     margin-left: 12px;
+    margin-bottom: 5px;
   }
 
   .medium {
     height: 204px;
-    margin-left: 34px;
+    margin-left: 12px;
   }
 
   .medium2 {
     height: 217px;
-    margin-left: 34px;
+    margin-left: 12px;
+    margin-bottom: 5px;
   }
 
   .bottom {
