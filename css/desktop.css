@@ -38,6 +38,8 @@
   }
 
   .nav-link:hover {
+    border-top: 2px solid var(--blue);
+    color: var(--blue);
     padding-top: 48px;
   }
 
