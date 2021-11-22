@@ -1,0 +1,618 @@
+@media (min-width: 992px) {
+  .container-header {
+    padding: 0px 56px;
+  }
+
+  .navbar-maj {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-logo {
+    width: 50%;
+    padding-top: 36px;
+  }
+
+  .navbar-logo img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .navbar-maj ul {
+    display: flex;
+    width: 21.8%;
+    justify-content: space-between;
+    padding-top: 48px;
+  }
+
+  .nav-link {
+    font-size: 17.2px;
+    font-weight: 400;
+    padding-right: 26px;
+    padding-left: 26px;
+    color: black;
+  }
+
+  .nav-link.active {
+    border-top: 2px solid #0065fc;
+    color: var(--blue);
+    padding-top: 48px;
+  }
+
+  .nav-link:hover {
+    color: var(--blue);
+  }
+
+  .container-main {
+    padding: 22px 58px;
+    line-height: 1.1;
+  }
+
+  h1,
+  .h2 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 23.8px;
+  }
+  .h4 {
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 16.8px;
+  }
+
+  .h3 {
+    padding: 15px 7px;
+    font-size: 19.8px;
+    font-weight: bold;
+  }
+
+  form {
+    padding-top: 10px;
+  }
+
+  /* Clear floats */
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .ro-icon {
+    display: none;
+  }
+  .btn-right {
+    width: 150px;
+  }
+  .search input[type="text"] {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 248px;
+    height: 57px;
+    border: 1px solid var(--grey);
+    background: white;
+    float: left;
+    color: black;
+  }
+  .btn-left {
+    border: 1px solid var(--grey);
+    border-radius: 16px 0% 0% 16px;
+    -webkit-appearance: none;
+    font-size: 20px;
+    background-color: var(--grey);
+    width: 54px;
+    border-right: none;
+    float: left;
+    height: 57px;
+    color: black;
+  }
+
+  .btn-right {
+    border: 1px solid var(--blue);
+    border-radius: 0% 16px 16px 0%;
+    -webkit-appearance: none;
+    font-size: 20px;
+    background-color: var(--blue);
+    color: white;
+    border-left: none;
+    float: left;
+    cursor: pointer;
+    height: 57px;
+    width: 144px;
+  }
+
+  .filter {
+    margin-top: 31px;
+    display: flex;
+  }
+
+  .filter h3 {
+    margin-left: 1px;
+    margin-right: 52px;
+  }
+
+  .filter-notify {
+    border: 2px solid var(--grey);
+    display: flex;
+    position: relative;
+    border-radius: 0% 50px 50px 0%;
+    height: 52px;
+    border-left: none;
+    align-items: center;
+    padding-right: 1px;
+    margin-right: 50px;
+    margin-left: 1px;
+  }
+
+  .filter-notify:hover {
+    background: var(--blue);
+    color: white;
+  }
+
+  .filter-notify .badge {
+    position: absolute;
+    left: -24px;
+    display: flex;
+    border-radius: 50px;
+    background: var(--light-blue);
+    color: var(--blue);
+    width: 52px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--light-blue);
+  }
+
+  .filter-notify .sticker {
+    font-size: 19.5px;
+    padding-left: 41px;
+    padding-right: 20px;
+  }
+
+  .infos {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    font-size: 16.8px;
+  }
+
+  .badge-info {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grey);
+    font-size: 15px;
+    color: var(--blue);
+    margin-right: 14px;
+    margin-left: 4px;
+  }
+
+  .hostals {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -1px;
+    height: 660px;
+    justify-content: space-between;
+    line-height: 1.2;
+  }
+
+  .hosting {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    background-color: var(--grey);
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 23.8px;
+  }
+  .category {
+    padding-top: 41px;
+    margin-left: 37px;
+    margin-bottom: 24px;
+  }
+
+  .display-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 35px;
+    justify-content: space-between;
+  }
+
+  .card {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    height: 210px;
+    width: 260px;
+    padding: 4px;
+    margin-bottom: 33px;
+    background-color: white;
+  }
+
+  .card-img-large {
+    display: flex;
+    border-radius: 22px 22px 0 0;
+    width: 250px;
+    height: 121px;
+  }
+
+  .card-body {
+    padding-top: 7px;
+    padding-left: 12px;
+    line-height: 1.2;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 17.5px;
+  }
+  .card-subtitle {
+    padding-top: 4px;
+    font-size: 15px;
+  }
+
+  .card-footer {
+    padding-left: 14px;
+    padding-top: 4px;
+  }
+
+  .fa-star {
+    font-size: 10px;
+  }
+
+  .blue {
+    color: var(--blue);
+  }
+
+  .grey {
+    color: var(--grey);
+  }
+
+  .show {
+    margin-left: 41px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .img1 {
+    background: url(../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img2 {
+    background: url(../images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img3 {
+    background: url(../images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img4 {
+    background: url(../images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 48%;
+  }
+
+  .img5 {
+    background: url(../images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img6 {
+    background: url(../images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 48%;
+  }
+
+  .img7 {
+    background: url(../images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 48%;
+  }
+
+  .img8 {
+    background: url(../images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 48%;
+  }
+
+  .img9 {
+    background: url(../images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 48%;
+  }
+
+  .title-end {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--grey);
+    padding: 6px;
+  }
+
+  .populars {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    width: 440px;
+    padding-left: 4px;
+    background-color: var(--grey);
+  }
+
+  .category-aside {
+    padding-top: 41px;
+    margin-left: 37px;
+  }
+
+  .fa-chart-line {
+    font-size: 25px;
+    padding-left: 120px;
+  }
+
+  .display-card-aside {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 35px;
+    margin-top: 28px;
+    justify-content: space-between;
+  }
+
+  .card-aside {
+    display: flex;
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    height: 153px;
+    width: 362px;
+    padding: 5px;
+    margin-bottom: 33px;
+    background-color: white;
+  }
+
+  .card-img-aside {
+    display: flex;
+    border-radius: 22px 0 0 22px;
+    width: 133px;
+    height: 140px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+  }
+
+  .card-body-aside {
+    padding-top: 9px;
+    width: 183px;
+    height: 130px;
+    padding-left: 12px;
+    line-height: 1.2;
+  }
+
+  .card-footer-aside {
+    padding-left: 1px;
+    padding-top: 41px;
+  }
+
+  .activities {
+    margin-top: 60px;
+    height: 580px;
+    margin-left: -5px;
+    line-height: 1.2;
+  }
+
+  .display-activities {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+
+  .card-vertical {
+    width: 320px;
+    border-radius: 22px;
+    background-color: white;
+  }
+
+  .high {
+    height: 470px;
+  }
+
+  .second-high {
+    height: 470px;
+    margin-left: 22px;
+  }
+
+  .mid-high {
+    height: 245px;
+    margin-left: 12px;
+    margin-bottom: 48px;
+  }
+
+  .min-high {
+    height: 178px;
+    margin-left: 12px;
+  }
+
+  .medium {
+    height: 204px;
+    margin-left: 34px;
+  }
+
+  .medium2 {
+    height: 217px;
+    margin-left: 34px;
+  }
+
+  .bottom {
+    margin-bottom: 46px;
+  }
+
+  .card-img-high {
+    height: 410px;
+    width: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+  .card-img-mid-high {
+    height: 190px;
+    width: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .card-img-min-high {
+    height: 116px;
+    width: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .card-img-medium {
+    height: 144px;
+    width: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .card-img-medium2 {
+    height: 160px;
+    width: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .card-vertical-mid-title {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 17.5px;
+    font-weight: 700;
+  }
+
+  .card-vertical-min-title {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 17.5px;
+    font-weight: 700;
+  }
+  .card-vertical-medium-title {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 17.5px;
+    font-weight: 700;
+  }
+
+  .fa-euro-sign {
+    font-size: 12px;
+  }
+
+  .img11 {
+    background: url(../images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: 50% 0%;
+  }
+  .img12 {
+    background: url(../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img13 {
+    background: url(../images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img14 {
+    background: url(../images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: 50% 0%;
+  }
+
+  .img15 {
+    background: url(../images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .img16 {
+    background: url(../images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .card-vertical-title {
+    margin-top: 18px;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .col-8 {
+    width: 65.6%;
+  }
+
+  .col-4 {
+    width: 33%;
+  }
+
+  .col-4-reduced {
+    width: 33%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  footer {
+    height: 200px;
+    padding: 26px 53px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.9;
+    background-color: var(--grey);
+  }
+
+  .mid {
+    margin-left: 24px;
+  }
+
+  .end {
+    margin-left: 24px;
+  }
+
+  .footer-title {
+    font-size: 19px;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 6px;
+  }
+
+  .footer-subtitle {
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+  }
+}
