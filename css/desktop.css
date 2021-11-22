@@ -38,32 +38,21 @@
   }
 
   .nav-link:hover {
-    border-top: 2px solid #0065fc;
-    color: var(--blue);
     padding-top: 48px;
   }
 
   .container-main {
     padding: 22px 58px;
-    line-height: 1.1;
   }
 
   h1,
   .h2 {
-    margin: 10px 0;
-    font-weight: bold;
     font-size: 23.8px;
   }
   .h4 {
     margin: 10px 0;
-    font-weight: normal;
-    font-size: 16.8px;
-  }
 
-  .h3 {
-    padding: 15px 7px;
-    font-size: 19.8px;
-    font-weight: bold;
+    font-size: 16.8px;
   }
 
   form {
@@ -80,43 +69,25 @@
   .ro-icon {
     display: none;
   }
-  .btn-right {
-    width: 150px;
-  }
+
   .search input[type="text"] {
     padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
     width: 248px;
     height: 57px;
-    border: 1px solid var(--grey);
-    background: white;
-    float: left;
-    color: black;
   }
+
   .btn-left {
-    border: 1px solid var(--grey);
-    border-radius: 16px 0% 0% 16px;
-    -webkit-appearance: none;
     font-size: 20px;
-    background-color: var(--grey);
     width: 54px;
-    border-right: none;
     float: left;
     height: 57px;
-    color: black;
   }
 
   .btn-right {
-    border: 1px solid var(--blue);
     border-radius: 0% 16px 16px 0%;
-    -webkit-appearance: none;
     font-size: 20px;
-    background-color: var(--blue);
-    color: white;
     border-left: none;
     float: left;
-    cursor: pointer;
     height: 57px;
     width: 144px;
   }
@@ -132,35 +103,10 @@
   }
 
   .filter-notify {
-    border: 2px solid var(--grey);
-    display: flex;
-    position: relative;
-    border-radius: 0% 50px 50px 0%;
     height: 52px;
-    border-left: none;
-    align-items: center;
     padding-right: 1px;
     margin-right: 50px;
     margin-left: 1px;
-  }
-
-  .filter-notify:hover {
-    background: var(--blue);
-    color: white;
-  }
-
-  .filter-notify .badge {
-    position: absolute;
-    left: -24px;
-    display: flex;
-    border-radius: 50px;
-    background: var(--light-blue);
-    color: var(--blue);
-    width: 52px;
-    height: 52px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--light-blue);
   }
 
   .filter-notify .sticker {
@@ -179,13 +125,6 @@
   .badge-info {
     width: 25px;
     height: 25px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--grey);
-    font-size: 15px;
-    color: var(--blue);
     margin-right: 14px;
     margin-left: 4px;
   }
