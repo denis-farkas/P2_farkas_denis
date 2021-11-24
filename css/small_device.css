@@ -2,7 +2,7 @@
   /* body {
     width: 375px;
     height: 3600px;
-    background-image: url(../iPhone.jpg);
+    background-image: url(../images/iPhone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }*/
@@ -158,7 +158,6 @@
 
   .hosting {
     order: 2;
-
     margin-right: 16px;
     padding-bottom: 45px;
   }
@@ -173,11 +172,6 @@
     margin-bottom: 22px;
   }
 
-  .display-activities {
-    display: flex;
-    justify-content: center;
-  }
-
   .display-card {
     justify-content: center;
   }
@@ -190,6 +184,12 @@
 
   .display-activities {
     margin-bottom: 50px;
+  }
+
+  .activity {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .card {
     border: 2px solid white;
