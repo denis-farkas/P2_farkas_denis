@@ -3,6 +3,8 @@
   --dark-blue: #005dfc;
   --light-blue: #deebff;
   --grey: #f2f2f2;
+  --black: black;
+  --transp: rgba(255, 255, 255, 0);
 }
 
 * {
@@ -118,8 +120,81 @@ h1,
   justify-content: center;
   align-items: center;
   border: 1px solid var(--grey);
-  font-size: 15px;
+
   color: var(--blue);
+}
+
+.hostals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hosting {
+  border: 1px solid var(--grey);
+  border-radius: 25px;
+  flex-wrap: wrap;
+  background-color: var(--grey);
+}
+
+.display-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 35px;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid var(--grey);
+  border-radius: 25px;
+  background-color: white;
+}
+
+.card-img-large {
+  display: flex;
+  border-radius: 22px 22px 0 0;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.file_1,
+.file_2,
+.file_3,
+.file_5,
+.file_12 {
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.file_13,
+.file_15,
+.file_16 {
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.file_4,
+.file_6,
+.file_7,
+.file_8,
+.file_9 {
+  background-position: 50% 48%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.file_11,
+.file_14 {
+  background-repeat: no-repeat;
+  background-size: 220%;
+  background-position: 50% 0%;
 }
 
 @media (min-width: 1200px) {

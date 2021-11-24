@@ -58,6 +58,10 @@
     padding: 24px 20px;
   }
 
+  .container-fluid {
+    padding: 0 0;
+  }
+
   h1,
   .h2 {
     font-size: 22.6px;
@@ -133,16 +137,195 @@
   }
 
   .infos {
-    margin-top: 20px;
+    margin-top: 18px;
     display: flex;
-    align-items: center;
     font-size: 16px;
   }
 
   .badge-info {
-    width: 20px;
-    height: 20px;
-    margin-right: 4px;
-    margin-left: 4px;
+    height: 25px;
+    margin-right: 12px;
+    font-size: 12px;
+    min-width: 25px;
+  }
+
+  .hostals {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: -1px;
+    line-height: 1.2;
+  }
+
+  .hosting {
+    order: 2;
+    margin-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 23.8px;
+  }
+  .category {
+    padding-top: 41px;
+    margin-left: 37px;
+    margin-bottom: 24px;
+  }
+
+  .display-card {
+    padding: 0 35px;
+  }
+
+  .card {
+    height: 210px;
+    width: 260px;
+    padding: 4px;
+    margin-bottom: 33px;
+  }
+
+  .card-img-large {
+    width: 250px;
+    height: 121px;
+  }
+
+  .card-body {
+    padding-top: 7px;
+    padding-left: 12px;
+    line-height: 1.2;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 17.5px;
+  }
+  .card-subtitle {
+    padding-top: 4px;
+    font-size: 15px;
+  }
+
+  .card-footer {
+    padding-left: 14px;
+    padding-top: 4px;
+  }
+
+  .fa-star {
+    font-size: 10px;
+  }
+
+  .show {
+    margin-left: 41px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .file_1 {
+    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  }
+
+  .file_2 {
+    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  }
+
+  .file_3 {
+    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  }
+
+  .file_4 {
+    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  }
+
+  .file_5 {
+    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  }
+
+  .file_6 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  }
+
+  .title-end {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--grey);
+    padding: 6px;
+  }
+
+  .populars {
+    order: 1;
+    flex-wrap: wrap;
+    background-color: var(--grey);
+    min-width: 360px;
+  }
+
+  .category-aside {
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-between;
+  }
+
+  .fa-chart-line {
+    font-size: 25px;
+  }
+
+  .display-card-aside {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 35px;
+    justify-content: center;
+  }
+
+  .card-aside {
+    display: flex;
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    height: 153px;
+    width: 362px;
+    min-width: 342px;
+    padding: 5px;
+    margin-bottom: 33px;
+    background-color: white;
+  }
+
+  .card-img-aside {
+    display: flex;
+    border-radius: 22px 0 0 22px;
+    width: 133px;
+    height: 140px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+  }
+
+  .card-body-aside {
+    padding-top: 9px;
+    width: 183px;
+    height: 130px;
+    padding-left: 12px;
+    line-height: 1.2;
+  }
+
+  .card-footer-aside {
+    padding-left: 1px;
+    padding-top: 41px;
+  }
+
+  .file_7 {
+    background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  }
+
+  .file_8 {
+    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  }
+
+  .file_9 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  }
+
+  .col-12,
+  .col-8,
+  .col-4,
+  .col-4-reduced,
+  .col-3 {
+    width: 100%;
+    justify-content: center;
   }
 }
