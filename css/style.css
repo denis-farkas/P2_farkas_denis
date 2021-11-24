@@ -33,6 +33,14 @@ a:visited {
   color: transparent;
 }
 
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: var(--blue);
+}
+
 .card,
 .card-aside,
 .card-vertical {
@@ -129,13 +137,6 @@ h1,
   justify-content: space-between;
 }
 
-.hosting {
-  border: 1px solid var(--grey);
-  border-radius: 25px;
-  flex-wrap: wrap;
-  background-color: var(--grey);
-}
-
 .display-card {
   display: flex;
   flex-wrap: wrap;
@@ -143,13 +144,14 @@ h1,
   justify-content: space-between;
 }
 
-.card {
-  border: 1px solid var(--grey);
-  border-radius: 25px;
-  background-color: white;
-}
-
-.card-img-large {
+.card-img-large,
+.card-img-large,
+.card-img-high,
+.card-img-mid-high,
+.card-img-min-high,
+.card-img-second-high,
+.card-img-medium,
+.card-img-medium2 {
   display: flex;
   border-radius: 22px 22px 0 0;
 }

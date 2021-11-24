@@ -146,6 +146,10 @@
   }
 
   .hosting {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    background-color: var(--grey);
     order: 1;
     margin-right: 20px;
     padding-bottom: 10px;
@@ -162,6 +166,9 @@
   }
 
   .card {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    background-color: white;
     height: 210px;
     width: 260px;
     padding: 4px;
@@ -488,16 +495,19 @@
   }
 
   .first {
-    padding-top: 26px;
+    padding-top: 20px;
+    padding-bottom: 12px;
   }
   .mid {
-    padding-top: 26px;
+    padding-top: 20px;
     margin-left: 24px;
+    padding-bottom: 12px;
   }
 
   .end {
-    padding-top: 26px;
+    padding-top: 20px;
     margin-left: 24px;
+    padding-bottom: 12px;
   }
 
   .footer-title {
