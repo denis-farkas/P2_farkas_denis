@@ -376,7 +376,6 @@
     display: flex;
     border: 1px solid var(--grey);
     border-radius: 25px;
-    height: 153px;
     width: 362px;
     min-width: 342px;
     padding: 15px;
