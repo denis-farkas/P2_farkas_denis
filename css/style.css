@@ -41,11 +41,21 @@ a:visited {
   color: var(--blue);
 }
 
+.footer-subtitle a:hover {
+  color: var(--blue);
+}
+
 .card,
 .card-aside,
 .card-vertical {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
   transition-duration: 0.1s;
+}
+
+.card:hover,
+.card-aside:hover,
+.card-vertical:hover {
+  transform: scale(1.05);
 }
 
 .container-main {
@@ -141,7 +151,7 @@ h1,
   display: flex;
   flex-wrap: wrap;
   padding: 0 35px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card-img-large,
@@ -199,8 +209,10 @@ h1,
   background-position: 50% 0%;
 }
 
-@media (min-width: 1200px) {
-  .col-8 {
-    max-width: 1100px;
+@media (min-width: 1538px) {
+  body {
+    width: 100%;
+    max-width: 1538px;
+    margin: 0 auto;
   }
 }

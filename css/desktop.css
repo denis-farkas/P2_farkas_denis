@@ -162,7 +162,7 @@
   .category {
     padding-top: 37px;
     margin-left: 37px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .card {
@@ -172,7 +172,8 @@
     height: 210px;
     width: 260px;
     padding: 4px;
-    margin-bottom: 33px;
+    margin: 4px;
+    margin-bottom: 29px;
   }
 
   .card-img-large {
@@ -256,30 +257,29 @@
 
   .populars {
     order: 2;
-    display: flex;
     border: 1px solid var(--grey);
     border-radius: 25px;
     flex-wrap: wrap;
-    padding-left: 4px;
+    padding: 14px;
     background-color: var(--grey);
     min-width: 372px;
   }
 
   .category-aside {
     display: flex;
+    width: 80%;
     padding-top: 41px;
     margin-left: 37px;
+    justify-content: space-between;
   }
 
   .fa-chart-line {
     font-size: 25px;
-    padding-left: 120px;
   }
 
   .display-card-aside {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 35px;
     margin-top: 28px;
     justify-content: center;
   }
@@ -328,8 +328,13 @@
   .display-activities {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     padding-top: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .display_block {
+    display: flex;
     flex-wrap: wrap;
   }
 
@@ -337,6 +342,8 @@
     min-width: 320px;
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    justify-content: center;
   }
 
   .card-vertical {
@@ -347,36 +354,32 @@
 
   .high {
     height: 470px;
-    margin-bottom: 5px;
+    margin: 5px 6px;
   }
 
   .second-high {
     height: 470px;
-    margin-left: 24px;
-    margin-bottom: 5px;
+    margin: 5px 6px;
   }
 
   .mid-high {
     height: 245px;
-    margin-left: 12px;
-    margin-bottom: 48px;
+    margin: 0 6px;
   }
 
   .min-high {
     height: 178px;
-    margin-left: 12px;
-    margin-bottom: 5px;
+    margin: 5px 6px;
   }
 
   .medium {
     height: 204px;
-    margin-left: 34px;
+    margin: 5px 6px;
   }
 
   .medium2 {
     height: 217px;
-    margin-left: 34px;
-    margin-bottom: 5px;
+    margin: 5px 6px;
   }
 
   .bottom {
@@ -482,9 +485,9 @@
     width: 33%;
   }
 
-  .col-3 {
+  /*.col-3 {
     width: 25%;
-  }
+  }*/
 
   footer {
     padding: 26px 53px;

@@ -1,12 +1,4 @@
 @media (max-width: 768px) {
-  /* body {
-    width: 375px;
-    height: 3600px;
-    background-image: url(../images/iPhone.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
-
   .container-header {
     display: flex;
     padding: 0px;
@@ -117,7 +109,7 @@
   }
 
   .filter .h3 {
-    margin-right: 152px;
+    margin-right: 80%;
     font-size: 18px;
     padding: 15px 4px;
   }
@@ -204,6 +196,11 @@
   }
   .card {
     padding: 4px;
+  }
+
+  .card-vertical {
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .card-img-large {
     width: 323px;
