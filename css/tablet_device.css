@@ -177,6 +177,12 @@
     justify-content: space-around;
   }
 
+  .display_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .activity {
     min-width: 320px;
     display: flex;

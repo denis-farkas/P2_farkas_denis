@@ -346,6 +346,24 @@
     justify-content: center;
   }
 
+  @media (min-width: 1054px) and (max-width: 1408px) {
+    .trick {
+      flex-direction: row;
+    }
+
+    .trick .card-vertical {
+      margin: 10px;
+      width: 660px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1408px) {
+    .display_block {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
   .card-vertical {
     max-width: 320px;
     border-radius: 22px;
