@@ -165,8 +165,7 @@
   }
 
   .display-card {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 0 22px;
   }
 
   .display-activities {
@@ -201,6 +200,10 @@
     width: 334px;
     margin-bottom: 17px;
     padding: 4px;
+  }
+
+  .card-img-large {
+    border-radius: 22px 22px 0 0;
   }
 
   .high {
@@ -497,10 +500,6 @@
     padding-left: 2px;
     justify-content: start;
     margin-bottom: 16px;
-  }
-
-  .col-4.end {
-    padding-top: 12px;
   }
 
   footer {
