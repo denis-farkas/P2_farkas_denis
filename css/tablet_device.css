@@ -1,7 +1,9 @@
 @media (min-width: 768px) and (max-width: 992px) {
+  /* Header */
+
   .container-header {
     display: flex;
-    padding: 0px;
+    padding-top: 3.2vh;
   }
 
   .navbar-maj {
@@ -9,45 +11,47 @@
   }
 
   .navbar-min {
-    width: 100%;
+    width: 100vw;
     text-align: center;
   }
 
   .navbar-logo-small img {
-    margin-top: 22px;
-    width: 25%;
+    width: 25vw;
   }
 
   .navbar-min ul {
     display: flex;
-    width: 100%;
-    padding-top: 24px;
+    width: 100vw;
+    margin-top: 3.25vh;
   }
 
   .nav-item {
     display: flex;
-    width: 50%;
+    width: 50vw;
     justify-content: center;
   }
 
   .nav-link {
-    font-size: 16px;
+    font-size: 2.45vh;
     font-weight: 600;
-    padding-right: 36px;
-    padding-left: 36px;
+    padding-right: 3.2vw;
+    padding-left: 3.2vw;
     color: black;
     text-align: center;
   }
 
-  .nav-link:hover {
+  .nav-item:hover {
     border-bottom: 2px solid var(--blue);
     color: var(--blue);
-    padding-bottom: 7px;
+    padding-bottom: 2vh;
   }
 
+  /*Main*/
+
   .container-main {
-    margin-top: 10px;
-    padding: 24px 20px;
+    margin-top: 1.5vh;
+    padding: 1.6vh 5.3vw;
+    padding-right: 2.8vw;
   }
 
   .container-fluid {
@@ -56,16 +60,16 @@
 
   h1,
   .h2 {
-    font-size: 22.6px;
+    font-size: 3.41vh;
   }
 
   .h4 {
-    margin: 13px 0;
-    font-size: 16px;
+    margin: 1.96vh 0;
+    font-size: 2.41vh;
   }
 
   form {
-    padding-top: 25px;
+    padding-top: 3.5vh;
     display: flex;
     justify-content: center;
   }
@@ -77,384 +81,386 @@
   .search input[type="text"] {
     display: flex;
     position: relative;
-    padding-left: 15px;
-    width: 250px;
-    height: 50px;
+    padding-left: 5.2vw;
+    width: 76.7vw;
+    height: 7.55vh;
+    font-size: 2.78vh;
   }
 
   .btn-left {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    width: 50px;
-    height: 50px;
+    font-size: 2.72vh;
+    width: 16vw;
+    height: 7.55vh;
   }
 
   .btn-right {
     position: relative;
-    left: -10px;
+    left: -3.3vw;
     border-radius: 16px 16px 16px 16px;
-    font-size: 18px;
-    height: 50px;
-    width: 50px;
+    font-size: 2.72vh;
+    height: 7.55vh;
+    width: 16vw;
     justify-content: center;
     align-items: center;
   }
 
   .filter {
-    margin-top: 18px;
+    margin-top: 5.3vh;
     display: flex;
     flex-wrap: wrap;
   }
 
   .filter .h3 {
-    margin-right: 52px;
-    font-size: 18px;
-    padding: 15px 4px;
+    font-size: 2.8vh;
+    padding: 0 1vw;
+    margin-right: 80vw;
+    margin-bottom: 2.35vh;
   }
 
   .filter-notify {
-    height: 50px;
+    height: 7.55vh;
     width: fit-content;
-    margin-left: 25px;
-    margin-right: 6px;
-    margin-bottom: 14px;
+    margin-left: 6.9vw;
+    margin-right: 2.8vw;
+    margin-bottom: 1.8vh;
   }
 
   .filter-notify .sticker {
-    font-size: 17px;
-    padding-left: 36px;
-    padding-right: 17px;
+    font-size: 2.5vh;
+    font-weight: 900;
+    padding-left: 9.3vw;
+    padding-right: 5.1vw;
+  }
+
+  .filter-notify .badge {
+    position: absolute;
+    left: -24px;
+    display: flex;
+    border-radius: 50px;
+    background: var(--light-blue);
+    color: var(--blue);
+    width: 7.5vh;
+    height: 7.5vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-blue);
   }
 
   .infos {
-    margin-top: 18px;
+    margin-top: 3.7vh;
     display: flex;
-    font-size: 16px;
+    font-size: 2.42vh;
   }
 
   .badge-info {
-    height: 25px;
-    margin-right: 12px;
-    font-size: 12px;
-    min-width: 25px;
+    height: 3.6vh;
+    margin-right: 3.2vw;
+    font-size: 2vh;
+    min-width: 6.5vw;
+    border: 2px solid var(--grey);
   }
 
-  .hostals {
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-left: -1px;
-    line-height: 1.2;
+  .container-fluid {
+    padding: 0 0;
   }
 
-  .hosting {
-    order: 2;
-    margin-right: 16px;
-    padding-bottom: 45px;
-  }
-
-  .title {
-    font-weight: bold;
-    font-size: 22.5px;
-  }
-  .category {
-    padding-top: 5px;
-    margin-left: 23px;
-    margin-bottom: 22px;
-  }
-
-  .display-card {
-    padding: 0 22px;
-  }
-
-  .display-activities {
-    width: 100%;
-    display: flex;
-    padding-top: 15px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .display_block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .activity {
-    min-width: 320px;
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    justify-content: center;
-  }
-
-  .card {
-    border: 2px solid white;
-  }
-  .card {
-    border-radius: 25px;
-    background-color: white;
-    height: 194px;
-    width: 334px;
-    margin-bottom: 17px;
-    padding: 4px;
-  }
-
-  .card-img-large {
-    border-radius: 22px 22px 0 0;
-  }
-
-  .high {
-    height: 470px;
-    margin: 5px 6px;
-  }
-
-  .second-high {
-    height: 470px;
-    margin: 5px 6px;
-  }
-
-  .mid-high {
-    height: 245px;
-    margin: 0 6px;
-  }
-
-  .min-high {
-    height: 178px;
-    margin-left: 5px 6px;
-  }
-
-  .medium {
-    height: 204px;
-    margin-left: 5px 6px;
-  }
-
-  .medium2 {
-    height: 217px;
-    margin-left: 5px 6px;
-  }
-
-  .bottom {
-    margin-bottom: 46px;
-  }
-
-  .card-img-large {
-    width: 323px;
-    height: 112px;
-  }
-
-  .card-img-high {
-    height: 410px;
-    width: 100%;
-    border-radius: 22px 22px 0 0;
-  }
-  .card-img-mid-high {
-    height: 190px;
-    width: 100%;
-    border-radius: 22px 22px 0 0;
-  }
-
-  .card-img-min-high {
-    height: 116px;
-    width: 100%;
-    border-radius: 22px 22px 0 0;
-  }
-
-  .card-img-medium {
-    height: 144px;
-    width: 100%;
-    border-radius: 22px 22px 0 0;
-  }
-
-  .card-img-medium2 {
-    height: 160px;
-    width: 100%;
-    border-radius: 22px 22px 0 0;
-  }
-
-  .card-vertical-mid-title {
-    margin-top: 18px;
-    margin-left: 20px;
-    font-size: 17.5px;
-    font-weight: 700;
-  }
-
-  .card-vertical-min-title {
-    margin-top: 18px;
-    margin-left: 20px;
-    font-size: 17.5px;
-    font-weight: 700;
-  }
-  .card-vertical-medium-title {
-    margin-top: 18px;
-    margin-left: 20px;
-    font-size: 17.5px;
-    font-weight: 700;
-  }
-
-  .card-body {
-    padding-top: 7px;
-    padding-left: 10px;
-    line-height: 1.2;
-  }
-
-  .card-title {
-    font-weight: 600;
-    font-size: 16px;
-  }
-  .card-subtitle {
-    padding-top: 4px;
-    font-size: 14px;
-  }
-
-  .card-footer {
-    padding-top: 3.5px;
-    padding-left: 9px;
-  }
-
-  .fa-star {
-    font-size: 9px;
-  }
-
-  .show {
-    margin-left: 21px;
-    margin-top: 16px;
-    font-size: 19px;
-    font-weight: 900;
-  }
-
-  .file_1 {
-    background-image: url(../images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-  }
-
-  .file_2 {
-    background-image: url(../images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-  }
-
-  .file_3 {
-    background-image: url(../images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-  }
-
-  .file_4 {
-    background-image: url(../images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-  }
-
-  .file_5 {
-    background-image: url(../images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-  }
-
-  .file_6 {
-    background-image: url(../images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-  }
-
-  .title-end {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--grey);
-    padding: 6px;
-  }
+  /* Aside populars take order 1, first content in small device*/
 
   .populars {
     order: 1;
     flex-wrap: wrap;
     background-color: var(--grey);
-    min-width: 360px;
-    padding: 15px;
-    margin-bottom: 30px;
+    padding-bottom: 2.2vh;
+    margin-bottom: 3vh;
   }
 
   .category-aside {
+    width: 100%;
     display: flex;
-    padding: 30px 20px;
-    justify-content: space-around;
+    padding: 3.5vh 5.2vw;
+    justify-content: space-between;
   }
 
   .fa-chart-line {
-    font-size: 25px;
+    font-size: 3.5vh;
   }
 
   .display-card-aside {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding: 0 5.1vw;
   }
 
   .card-aside {
     display: flex;
     border: 1px solid var(--grey);
     border-radius: 25px;
-    width: 362px;
-    min-width: 342px;
-    padding: 15px;
-    margin-bottom: 15px;
-    background-color: white;
+
+    height: 22.4vh;
+    padding: 0.7vh;
+    margin-bottom: 1vh;
+    background-color: var(--white);
   }
 
   .card-img-aside {
     display: flex;
     border-radius: 22px 0 0 22px;
-    width: 133px;
-    height: 140px;
+    width: 36vw;
+    height: 20.5vh;
     flex-wrap: wrap;
-    margin-right: 10px;
+    margin-right: 4vw;
   }
 
   .card-body-aside {
-    padding-top: 9px;
-    width: 183px;
-    height: 130px;
-    padding-left: 12px;
+    padding-top: 1.7vh;
+    height: 22.4vh;
+    width: 47vw;
     line-height: 1.2;
+    text-align: start;
   }
 
   .card-footer-aside {
-    padding-left: 1px;
-    padding-top: 41px;
+    padding-top: 5.2vh;
   }
 
   .file_7 {
-    background-image: url(../images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
   }
 
   .file_8 {
-    background-image: url(../images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   }
 
   .file_9 {
-    background-image: url(../images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 3.5vh;
+  }
+
+  .col-12,
+  .col-8,
+  .col-4-reduced,
+  .col-3 {
+    width: 100%;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 2.38vh;
+    padding-right: 15px;
+  }
+  .card-subtitle {
+    padding-top: 1.2vh;
+    font-size: 2.12vh;
+  }
+
+  .fa-star {
+    font-size: 1.25vh;
+  }
+
+  .hostals {
+    flex-wrap: wrap;
+    margin-top: 4vh;
+    line-height: 1.2;
+  }
+
+  .hosting {
+    order: 2;
+    padding-bottom: 2.2vh;
+    margin-bottom: 3vh;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 3.4vh;
+  }
+  .category {
+    padding: 2.1vh 3vw;
+  }
+
+  .display-card {
+    justify-content: center;
+  }
+
+  .activities {
+    margin-top: 0.8vh;
+    margin-left: 0.6vw;
+  }
+
+  .activities .category {
+    padding-left: 5vw;
+  }
+
+  .display-activities {
+    margin-top: 1.8vh;
+    margin-bottom: 2.3vh;
+  }
+
+  .activity {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    border: 2px solid var(--white);
+  }
+  .card,
+  .card-vertical {
+    border-radius: 15px;
+    background-color: var(--white);
+  }
+
+  .card {
+    padding: 0.7vh;
+    margin-bottom: 2.3vw;
+  }
+
+  .card-vertical {
+    margin-bottom: 3.9vh;
+  }
+
+  .card-img-large {
+    width: 86.5vw;
+    height: 17.8vh;
+  }
+
+  .card-img-large,
+  .card-img-high,
+  .card-img-mid-high,
+  .card-img-min-high,
+  .card-img-second-high,
+  .card-img-medium,
+  .card-img-medium2 {
+    display: flex;
+    border-radius: 15px 15px 0 0;
+  }
+  .card-img-high,
+  .card-img-mid-high,
+  .card-img-min-high,
+  .card-img-second-high,
+  .card-img-medium,
+  .card-img-medium2 {
+    width: 90vw;
+    height: 20vh;
+  }
+
+  .card-body {
+    padding-left: 0.7vh;
+    line-height: 1.2;
+    padding-top: 1vh;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 2.4vh;
+    padding-left: 1.3vw;
+  }
+  .card-subtitle {
+    padding: 0.5vh 1.8vw;
+    font-size: 2.1vh;
+  }
+
+  .fa-star {
+    font-size: 1.3vh;
+  }
+
+  .card-footer {
+    padding: 0.2vh 3.2vw;
+  }
+
+  .show {
+    margin-left: 3vw;
+    margin-top: 3.3vh;
+    font-size: 2.8vh;
+    font-weight: 900;
+  }
+
+  /* Test cards 
+  
+  .file_11,
+  .file_12,
+  .file_13,
+  .file_14,
+  .file_15,
+  .file_16 {
+    background-image: url(../images/hebergements/4_small/test.png);
+  }*/
+
+  .file_1 {
+    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  }
+  .file_2 {
+    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  }
+
+  .file_3 {
+    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  }
+
+  .file_4 {
+    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  }
+
+  .file_5 {
+    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  }
+
+  .file_6 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  }
+
+  .title-end {
+    font-size: 5vh;
+    font-weight: 600;
+    color: var(--grey);
+    padding: 0.7vh;
+  }
+
+  .file_7 {
+    background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  }
+
+  .file_8 {
+    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  }
+
+  .file_9 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
   }
 
   .file_11 {
-    background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(../images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
   }
   .file_12 {
-    background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   }
 
   .file_13 {
-    background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(../images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
   }
 
   .file_14 {
-    background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(../images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
   }
 
   .file_15 {
-    background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(../images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
   }
 
   .file_16 {
-    background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(../images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
   }
 
-  .file_11,
   .file_13,
   .file_15,
-  .file_14,
   .file_16 {
-    background-position: 50% 10%;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -465,41 +471,42 @@
     background-size: cover;
   }
 
-  .card-vertical {
-    max-width: 320px;
-    border-radius: 22px;
-    background-color: white;
+  .file_11,
+  .file_14 {
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .card-vertical-title,
   .card-vertical-mid-title,
   .card-vertical-medium-title {
-    margin-top: 18px;
-    margin-left: 18px;
-    padding-bottom: 6px;
-    font-size: 18px;
+    margin-top: 2.2vh;
+    margin-left: 5.2vw;
+    padding-bottom: 1.8vh;
+    font-size: 2.3vh;
     font-weight: 700;
+    color: var(--black);
   }
 
   .col-12,
   .col-8,
-  .col-4-reduced {
+  .col-4-reduced,
+  .col-3 {
     width: 100%;
-    justify-content: center;
   }
 
-  /*.col-3 {
-    width: 50%;
-    justify-content: center;
-  }*/
-
-  .col-4.first,
-  .col-4.mid,
-  .col-4.end {
-    width: 33%;
+  .first,
+  .mid,
+  .end {
+    width: 100%;
     padding-left: 2px;
     justify-content: start;
     margin-bottom: 16px;
+  }
+
+  .col-4.end {
+    padding-top: 12px;
   }
 
   footer {
